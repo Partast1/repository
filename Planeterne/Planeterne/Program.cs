@@ -11,6 +11,8 @@ namespace Planeterne
         static void Main(string[] args)
         {
             //Liste over planeter, alle værdierne angives her. Alle properties bliver sendt over via constructoren i class'en
+
+            //TEST TEST
             List<Planet> planets = new List<Planet>();
             Planet Mercury = new Planet("Mercury", 0.330, 4879, 5427, 3.7, 1407.6, 4222.6, 57.9, 88.0, 47.4, 167, 0, false);
             Planet Earth = new Planet("Earth", 5.97, 12.754, 5514, 9.8, 23.9, 24.0, 149.6, 365.2, 29.8, 15, 1, false);
