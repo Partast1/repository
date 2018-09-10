@@ -1,0 +1,7 @@
+C:\Users\Anders\source\repos\GuestList\GuestList\bin\Debug\GuestList.exe.config
+C:\Users\Anders\source\repos\GuestList\GuestList\bin\Debug\GuestList.exe
+C:\Users\Anders\source\repos\GuestList\GuestList\bin\Debug\GuestList.pdb
+C:\Users\Anders\source\repos\GuestList\GuestList\obj\Debug\GuestList.csprojAssemblyReference.cache
+C:\Users\Anders\source\repos\GuestList\GuestList\obj\Debug\GuestList.csproj.CoreCompileInputs.cache
+C:\Users\Anders\source\repos\GuestList\GuestList\obj\Debug\GuestList.exe
+C:\Users\Anders\source\repos\GuestList\GuestList\obj\Debug\GuestList.pdb

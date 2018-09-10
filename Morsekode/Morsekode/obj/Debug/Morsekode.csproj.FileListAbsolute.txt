@@ -1,0 +1,7 @@
+C:\Users\Anders\source\repos\Morsekode\Morsekode\bin\Debug\Morsekode.exe.config
+C:\Users\Anders\source\repos\Morsekode\Morsekode\bin\Debug\Morsekode.exe
+C:\Users\Anders\source\repos\Morsekode\Morsekode\bin\Debug\Morsekode.pdb
+C:\Users\Anders\source\repos\Morsekode\Morsekode\obj\Debug\Morsekode.csprojAssemblyReference.cache
+C:\Users\Anders\source\repos\Morsekode\Morsekode\obj\Debug\Morsekode.csproj.CoreCompileInputs.cache
+C:\Users\Anders\source\repos\Morsekode\Morsekode\obj\Debug\Morsekode.exe
+C:\Users\Anders\source\repos\Morsekode\Morsekode\obj\Debug\Morsekode.pdb
