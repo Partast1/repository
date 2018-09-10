@@ -1,0 +1,7 @@
+C:\Users\Anders\source\repos\Planeterne\Planeterne\bin\Debug\Planeterne.exe.config
+C:\Users\Anders\source\repos\Planeterne\Planeterne\bin\Debug\Planeterne.exe
+C:\Users\Anders\source\repos\Planeterne\Planeterne\bin\Debug\Planeterne.pdb
+C:\Users\Anders\source\repos\Planeterne\Planeterne\obj\Debug\Planeterne.csprojAssemblyReference.cache
+C:\Users\Anders\source\repos\Planeterne\Planeterne\obj\Debug\Planeterne.csproj.CoreCompileInputs.cache
+C:\Users\Anders\source\repos\Planeterne\Planeterne\obj\Debug\Planeterne.exe
+C:\Users\Anders\source\repos\Planeterne\Planeterne\obj\Debug\Planeterne.pdb
