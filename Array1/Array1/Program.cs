@@ -27,7 +27,7 @@ namespace Array1
                 Console.WriteLine("Index 5 = {0}", ArrayOne[i]);
             }
           
-
+            //s
             Console.ReadKey();
         }
     }
