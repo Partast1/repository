@@ -42,5 +42,15 @@ namespace Methods_files
 
             return metFolder;   
         }
+
+        public void DisplayFolders()
+        {
+            DirectoryInfo[] folders = new DirectoryInfo(@".\").GetDirectories("*.*", SearchOption.AllDirectories);
+
+            foreach (DirectoryInfo folderItem in folders)
+            {
+                Console.WriteLine(folderItem.FullName + ".folder");
+            }
+        }
     }
 }

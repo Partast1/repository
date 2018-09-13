@@ -26,13 +26,8 @@ namespace Methods_files
                 //    Console.WriteLine(folders[i]);
                 //}
 
-               
-                DirectoryInfo[] folders = new DirectoryInfo(@".\").GetDirectories("*.*", SearchOption.AllDirectories);
-
-                foreach (DirectoryInfo folderItem in folders)
-                {
-                    Console.WriteLine(folderItem.FullName + ".folder");    
-                }
+                //
+                folder.DisplayFolders();
                
                 FileInfo[] files = new DirectoryInfo(@".\").GetFiles("*.txt", SearchOption.AllDirectories);
 
@@ -55,22 +50,24 @@ namespace Methods_files
                 Console.WriteLine("7. Exit");
 
                 Console.WriteLine();
-                foreach (Folder foldItem in folderList)
-                {
-                    Console.WriteLine("{0}", foldItem.FolderName);
-                }
+                //foreach (Folder foldItem in folderList)
+                //{
+                //    Console.WriteLine("{0}", foldItem.FolderName);
+                //}
 
                 string fileInput = Console.ReadLine();
 
                 switch (fileInput)
                 {
                     case "1":
+
                     break;
                     case "2":
                     break;
                     case "3":
                     break;
                     case "4":
+                    Console.WriteLine("Create folder");
                     string folderCreate = Console.ReadLine();
                     folder.CreateFolder(folderCreate);
                     Folder newList = new Folder(folderCreate);
