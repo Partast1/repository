@@ -11,32 +11,81 @@ namespace Methods_files
     {
         static void Main(string[] args)
         {
-            ////Creates one Folder
-            //Directory.CreateDirectory(@".\Droids");
-            ////Creates two subfolders
-            //Directory.CreateDirectory(@".\Droids\Astromech");
-            //Directory.CreateDirectory(@".\Droids\Protocol");
-            ////Creates two text files with some text
-            //File.WriteAllText(@".\Droids\Astromech\r2d2.text", "beep beep");
-            //File.WriteAllText(@".\Droids\Protocol\C3p0.text", "Sir");
-            ////displays all files
-            //foreach (string file in Directory.GetFiles(@".\"))
-            //{
-            //    Console.WriteLine(file);
-            //}
-            //Console.Read();
+            Folder folder = new Folder();
 
-            using (var writer = new StreamWriter(
-                new FileStream(@".\StarWars.txt", FileMode.Create)))
+            List<Folder> folderList = new List<Folder>();
+
+
+            bool repeatBool = true;
+
+            while (repeatBool == true)
             {
-                writer.Write("Beep boop!");
+                //string[] folders = Directory.GetFiles(@".\", "*", SearchOption.TopDirectoryOnly);
+                //for (int i = 0; i < folders.Length; i++)
+                //{
+                //    Console.WriteLine(folders[i]);
+                //}
+
+               
+                DirectoryInfo[] folders = new DirectoryInfo(@".\").GetDirectories("*.*", SearchOption.AllDirectories);
+
+                foreach (DirectoryInfo folderItem in folders)
+                {
+                    Console.WriteLine(folderItem.FullName + ".folder");    
+                }
+               
+                FileInfo[] files = new DirectoryInfo(@".\").GetFiles("*.txt", SearchOption.AllDirectories);
+
+                foreach (FileInfo file in files)
+                {
+                    Console.WriteLine(file.DirectoryName + file.Name);
+                    //Console.WriteLine(file.FullName);
+                    
+                }
+
+                //FileInfo file = Directory.GetFiles(("", SearchOption.AllDirectories);
+                Console.WriteLine("File Manipulation");
+
+                Console.WriteLine("1. Add file");
+                Console.WriteLine("2. Delete file");
+                Console.WriteLine("3. Display files");
+                Console.WriteLine("4. Add folder");
+                Console.WriteLine("5. Search file");
+                Console.WriteLine("6. Other stuff ex JPEG");
+                Console.WriteLine("7. Exit");
+
+                Console.WriteLine();
+                foreach (Folder foldItem in folderList)
+                {
+                    Console.WriteLine("{0}", foldItem.FolderName);
+                }
+
+                string fileInput = Console.ReadLine();
+
+                switch (fileInput)
+                {
+                    case "1":
+                    break;
+                    case "2":
+                    break;
+                    case "3":
+                    break;
+                    case "4":
+                    string folderCreate = Console.ReadLine();
+                    folder.CreateFolder(folderCreate);
+                    Folder newList = new Folder(folderCreate);
+                    folderList.Add(newList);
+                    break;
+                    case "5":
+                    break;
+                    case "6":
+                    break;
+                    case "7":
+                    repeatBool = false;
+                    break;
+                }
             }
-            using (var reader = new StreamReader (
-                new FileStream(@".\StarWars.txt", FileMode.Open)))
-            {
-                Console.WriteLine(reader.ReadToEnd());
-            }
-            Console.ReadLine();
+
         }
     }
 }

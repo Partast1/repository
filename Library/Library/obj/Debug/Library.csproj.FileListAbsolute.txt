@@ -5,3 +5,10 @@ C:\Users\Anders\source\repos\Library\Library\obj\Debug\Library.csprojAssemblyRef
 C:\Users\Anders\source\repos\Library\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
 C:\Users\Anders\source\repos\Library\Library\obj\Debug\Library.exe
 C:\Users\Anders\source\repos\Library\Library\obj\Debug\Library.pdb
+C:\Users\Anders\source\repos\repository\Library\Library\bin\Debug\Library.exe.config
+C:\Users\Anders\source\repos\repository\Library\Library\bin\Debug\Library.exe
+C:\Users\Anders\source\repos\repository\Library\Library\bin\Debug\Library.pdb
+C:\Users\Anders\source\repos\repository\Library\Library\obj\Debug\Library.csprojAssemblyReference.cache
+C:\Users\Anders\source\repos\repository\Library\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\Users\Anders\source\repos\repository\Library\Library\obj\Debug\Library.exe
+C:\Users\Anders\source\repos\repository\Library\Library\obj\Debug\Library.pdb
