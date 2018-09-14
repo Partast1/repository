@@ -12,9 +12,10 @@ namespace Methods_files
         static void Main(string[] args)
         {
             Folder folder = new Folder();
+            Filehandel file = new Filehandel();
 
             List<Folder> folderList = new List<Folder>();
-
+            
 
             bool repeatBool = true;
 
@@ -26,17 +27,12 @@ namespace Methods_files
                 //    Console.WriteLine(folders[i]);
                 //}
 
-                //
+                Console.WriteLine("folders in location");
                 folder.DisplayFolders();
-               
-                FileInfo[] files = new DirectoryInfo(@".\").GetFiles("*.txt", SearchOption.AllDirectories);
-
-                foreach (FileInfo file in files)
-                {
-                    Console.WriteLine(file.DirectoryName + file.Name);
-                    //Console.WriteLine(file.FullName);
-                    
-                }
+                Console.WriteLine();
+                Console.WriteLine("Text files");
+                file.DisplayFile();
+              
 
                 //FileInfo file = Directory.GetFiles(("", SearchOption.AllDirectories);
                 Console.WriteLine("File Manipulation");
@@ -60,6 +56,15 @@ namespace Methods_files
                 switch (fileInput)
                 {
                     case "1":
+                    Console.WriteLine("Create a file");
+                    Console.WriteLine("Type in location");
+                    string fileLocation = Console.ReadLine();
+                    Console.WriteLine("Type name of text document");
+                    string fileName = Console.ReadLine();
+                    //File.WriteAllText(@".\"fileLocation + fileName);
+                    //File.
+
+
 
                     break;
                     case "2":
