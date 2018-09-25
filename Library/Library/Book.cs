@@ -4,25 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Library
+namespace libaryfree
 {
     class Book
     {
-        private string titel;
-        private int pageCount;
         private string author;
-        private bool hardCover;
-        private bool lentOut;
+        private int pageCount;
+        private string titel;
+        private int id;
 
-        public string Titel
+        public string Author
         {
             get
             {
-                return this.titel;
+                return this.author;
             }
             set
             {
-                this.titel = value;
+                this.author = value;
             }
         }
         public int PageCount
@@ -36,53 +35,36 @@ namespace Library
                 this.pageCount = value;
             }
         }
-        public string Author
+        public string Titel
         {
             get
             {
-                return this.author;
+                return this.titel;
             }
             set
             {
-                this.author = value;
+                this.titel = value;
             }
+
         }
-        public bool HardCover
+        public int Id
         {
             get
             {
-                return this.hardCover;
+                return this.id;
             }
             set
             {
-                this.hardCover = value;
-            }
-        }
-        public bool LentOut
-        {
-            get
-            {
-                return this.lentOut;
-            }
-            set
-            {
-                this.lentOut = value;
+                this.id = value;
             }
         }
 
-        public Book(string titelCon, int pageCountCon, string authorCon, bool hardCoverCon, bool lentOutCon)
+        public Book(string conAuthor, int conPageCount, string conTitel, int conId)
         {
-            this.titel = titelCon;
-            this.pageCount = pageCountCon;
-            this.author = authorCon;
-            this.hardCover = hardCoverCon;
-            this.lentOut = lentOutCon;
-
-        }
-        public Book()
-        {
-           
-
+            this.author = conAuthor;
+            this.pageCount = conPageCount;
+            this.titel = conTitel;
+            this.id = conId;
         }
 
     }
