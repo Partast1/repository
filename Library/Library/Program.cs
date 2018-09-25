@@ -67,20 +67,13 @@ namespace libaryfree
                     break;
 
                     case 2:
-                    //foreach (Book item in pendingList)
-                    //{
 
-                    //}
-                    foreach (Book item in pendingList)
+                    while (pendingList.Count > 0)
                     {
-                        Console.WriteLine(pendingList);
-                    }
-                    //while (pendingList.Count > 0)
-                    //{
-                    //    pendingList.Peek();
-                    //    Console.WriteLine(pendingList.Pop());
+                        pendingList.Peek();
+                        Console.WriteLine(pendingList.Pop());
 
-                    //}
+                    }
 
 
 
