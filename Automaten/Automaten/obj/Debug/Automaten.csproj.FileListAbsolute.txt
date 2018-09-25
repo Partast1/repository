@@ -5,3 +5,10 @@ C:\Users\Anders\source\repos\Automaten\Automaten\bin\Debug\Automaten.exe
 C:\Users\Anders\source\repos\Automaten\Automaten\bin\Debug\Automaten.pdb
 C:\Users\Anders\source\repos\Automaten\Automaten\obj\Debug\Automaten.exe
 C:\Users\Anders\source\repos\Automaten\Automaten\obj\Debug\Automaten.pdb
+C:\Users\Anders\source\repos\repository\Automaten\Automaten\bin\Debug\Automaten.exe.config
+C:\Users\Anders\source\repos\repository\Automaten\Automaten\bin\Debug\Automaten.exe
+C:\Users\Anders\source\repos\repository\Automaten\Automaten\bin\Debug\Automaten.pdb
+C:\Users\Anders\source\repos\repository\Automaten\Automaten\obj\Debug\Automaten.csprojAssemblyReference.cache
+C:\Users\Anders\source\repos\repository\Automaten\Automaten\obj\Debug\Automaten.csproj.CoreCompileInputs.cache
+C:\Users\Anders\source\repos\repository\Automaten\Automaten\obj\Debug\Automaten.exe
+C:\Users\Anders\source\repos\repository\Automaten\Automaten\obj\Debug\Automaten.pdb

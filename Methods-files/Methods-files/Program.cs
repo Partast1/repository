@@ -56,13 +56,15 @@ namespace Methods_files
                 switch (fileInput)
                 {
                     case "1":
+
                     Console.WriteLine("Create a file");
                     Console.WriteLine("Type in location");
                     string fileLocation = Console.ReadLine();
                     Console.WriteLine("Type name of text document");
                     string fileName = Console.ReadLine();
-                    //File.WriteAllText(@".\"fileLocation + fileName);
+                    File.Create(fileLocation(fileInput.ToString) + fileName);
                     //File.
+                    //File.Create();
 
 
 
