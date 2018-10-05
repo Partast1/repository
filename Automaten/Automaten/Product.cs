@@ -15,6 +15,7 @@ namespace Automaten
 
 
 
+
         public string ProName
         {
             get
@@ -48,6 +49,7 @@ namespace Automaten
                 this.proQuantity = value;
             }
         }
+     
 
 
         public Product(string ConName, int ConPrice, int ConQuantity)

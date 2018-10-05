@@ -28,20 +28,20 @@ namespace Automaten
             Product liquorice = new Product("liquorice", 23, 2);
             Product oreo = new Product("oreo", 21, 5);
             Product hCandy = new Product("king of Denmark", 19, 5);
-            Product sCola = new Product("small Coca Cola", 15, 7);
-            Product lCola = new Product("large Coca Cola", 28, 5);
-            Product icetea = new Product("nestea", 14, 3);
-            Product cocio = new Product("Cocio", 17, 3);
+            //Product sCola = new Product("small Coca Cola", 15, 7);
+            //Product lCola = new Product("large Coca Cola", 28, 5);
+            //Product icetea = new Product("nestea", 14, 3);
+            //Product cocio = new Product("Cocio", 17, 3);
 
             //Addes all the item to product list.
             proListe.Add(doritos);
             proListe.Add(liquorice);
             proListe.Add(oreo);
             proListe.Add(hCandy);
-            proListe.Add(sCola);
-            proListe.Add(lCola);
-            proListe.Add(icetea);
-            proListe.Add(cocio);
+            //proListe.Add(sCola);
+            //proListe.Add(lCola);
+            //proListe.Add(icetea);
+            //proListe.Add(cocio);
 
             //Cartlist for prepurchased products
             List<Product> cartList = new List<Product>();
@@ -75,10 +75,10 @@ namespace Automaten
                 Console.WriteLine("{0} Price: {1} Quantity: {2}", liquorice.ProName, liquorice.ProPrice, liquorice.ProQuantity);
                 Console.WriteLine("{0} Price: {1} Quantity: {2}", oreo.ProName, oreo.ProPrice, oreo.ProQuantity);
                 Console.WriteLine("{0} Price: {1} Quantity: {2}", hCandy.ProName, hCandy.ProPrice, hCandy.ProQuantity);
-                Console.WriteLine("{0} Price: {1} Quantity: {2}", sCola.ProName, sCola.ProPrice, sCola.ProQuantity);
-                Console.WriteLine("{0} Price: {1} Quantity: {2}", lCola.ProName, lCola.ProPrice, lCola.ProQuantity);
-                Console.WriteLine("{0} Price: {1} Quantity: {2}", icetea.ProName, icetea.ProPrice, icetea.ProQuantity);
-                Console.WriteLine("{0} Price: {1} Quantity: {2}", cocio.ProName, cocio.ProPrice, cocio.ProQuantity);
+                //Console.WriteLine("{0} Price: {1} Quantity: {2}", sCola.ProName, sCola.ProPrice, sCola.ProQuantity);
+                //Console.WriteLine("{0} Price: {1} Quantity: {2}", lCola.ProName, lCola.ProPrice, lCola.ProQuantity);
+                //Console.WriteLine("{0} Price: {1} Quantity: {2}", icetea.ProName, icetea.ProPrice, icetea.ProQuantity);
+                //Console.WriteLine("{0} Price: {1} Quantity: {2}", cocio.ProName, cocio.ProPrice, cocio.ProQuantity);
 
                 Console.WriteLine();
                 Console.WriteLine("You have: {0}$", MoneyObj.Money);
@@ -93,11 +93,11 @@ namespace Automaten
                 {
                     //Insert money function
                     case 1:
-                    Console.WriteLine("Choose amount of money to put in");
-                    MoneyObj.AddCurrency();
-                    Thread.Sleep(1000);
-                    Console.WriteLine("{0} have been added", MoneyObj.Money);
-                    Console.Clear();
+                    //Console.WriteLine("Choose amount of money to put in");
+                    //MoneyObj.AddCurrency();
+                    //Thread.Sleep(1000);
+                    //Console.WriteLine("{0} have been added", MoneyObj.Money);
+                    //Console.Clear();
                     break;
 
                     //Select product function
@@ -155,24 +155,24 @@ namespace Automaten
                     break;
                     #endregion
 
-                    //Checkout function
-                    case 3:
-                    Console.Clear();
-                    Console.WriteLine("Calculating...");
-                    Thread.Sleep(2500);
-                    Console.Clear();
+                    ////Checkout function
+                    //case 3:
+                    //Console.Clear();
+                    //Console.WriteLine("Calculating...");
+                    //Thread.Sleep(2500);
+                    //Console.Clear();
 
-                    //Foreach loop displays Cartlist (items bought)
-                    foreach (Product cartItem in cartList)
-                    {
-                        Console.WriteLine("Product: {0} - Products left: {1}", cartItem.ProName, cartItem.ProQuantity);
+                    ////Foreach loop displays Cartlist (items bought)
+                    //foreach (Product cartItem in cartList)
+                    //{
+                    //    Console.WriteLine("Product: {0} - Products left: {1}", cartItem.ProName, cartItem.ProQuantity);
 
-                    }
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("Your change is {0}", MoneyObj.Money);
-                    Console.ForegroundColor = ConsoleColor.White;
-                    whilebool = false;
-                    break;
+                    //}
+                    //Console.ForegroundColor = ConsoleColor.Green;
+                    //Console.WriteLine("Your change is {0}", MoneyObj.Money);
+                    //Console.ForegroundColor = ConsoleColor.White;
+                    //whilebool = false;
+                    //break;
                 }
 
             }

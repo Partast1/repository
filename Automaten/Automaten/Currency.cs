@@ -36,10 +36,11 @@ namespace Automaten
             money = money - inputmoney;
             return money;
         }
-        public void AddCurrency()
+        public int AddCurrency()
         {
             int add = int.Parse(Console.ReadLine());
             money = add + money;
+            return money;
         }
     }
 }

@@ -12,3 +12,10 @@ C:\Users\Anders\source\repos\repository\Automaten\Automaten\obj\Debug\Automaten.
 C:\Users\Anders\source\repos\repository\Automaten\Automaten\obj\Debug\Automaten.csproj.CoreCompileInputs.cache
 C:\Users\Anders\source\repos\repository\Automaten\Automaten\obj\Debug\Automaten.exe
 C:\Users\Anders\source\repos\repository\Automaten\Automaten\obj\Debug\Automaten.pdb
+C:\Users\ander\Source\Repos\ZbcRepository\Automaten\Automaten\bin\Debug\Automaten.exe.config
+C:\Users\ander\Source\Repos\ZbcRepository\Automaten\Automaten\bin\Debug\Automaten.exe
+C:\Users\ander\Source\Repos\ZbcRepository\Automaten\Automaten\bin\Debug\Automaten.pdb
+C:\Users\ander\Source\Repos\ZbcRepository\Automaten\Automaten\obj\Debug\Automaten.csprojAssemblyReference.cache
+C:\Users\ander\Source\Repos\ZbcRepository\Automaten\Automaten\obj\Debug\Automaten.csproj.CoreCompileInputs.cache
+C:\Users\ander\Source\Repos\ZbcRepository\Automaten\Automaten\obj\Debug\Automaten.exe
+C:\Users\ander\Source\Repos\ZbcRepository\Automaten\Automaten\obj\Debug\Automaten.pdb
